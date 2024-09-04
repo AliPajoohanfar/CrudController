@@ -1,0 +1,8 @@
+---
+applications:
+- name: crud-controller
+  memory: 256M
+  instances: 1
+  host: crud-controller
+  domain: guides.spring.io
+  path: build/libs/crud-controller-0.1.0.jar
